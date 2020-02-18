@@ -2,7 +2,7 @@ const assert = require('chai').assert;
 const app = require('../app');
 
 // Tests
-describe('App', function() {
+describe('App', () => {
     describe('sayHello()', () => {
         let sayHelloResult = app.sayHello();
         it('sayHello should return hello', () => {
